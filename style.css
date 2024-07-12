@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.8);
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/* main container */
+
+.main{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 200;
+}
+.main h4{
+    margin-bottom: 10px;
+
+}
+.section2 input{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    background-color:rgb(128, 128, 128,0.2);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.section2 button{
+    background-color: orange;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.section2 button:hover{
+    background-color:orangered; 
+}
+
+/* result -container */
+.footer{
+    width: 500px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+}
+.result li{
+    width: 100%;
+    background-color:rgba(255, 166, 0, 0.205);
+    margin: 10px 0;
+    padding: 10px;
+    color: rgba(255, 115, 0, 0.973);
+    list-style: none;
+    font-size: 14px;
+
+}
+li button{
+    margin: 0 2px;
+    padding: 3px;
+    cursor: pointer;  
+    
+}
+.Read{
+    background-color: rgb(65, 105, 225,0.8);
+    outline: none;
+    border: none;
+    border-radius:5px;
+    color: white;
+    padding: 5px 10px;
+}
+.Remove{
+    background-color:rgb(255, 0, 0,0.7);
+    outline: none;
+    border: none;
+    border-radius:5px;
+    color: white;
+    padding: 5px 10px;
+}
+.Read:hover{
+    background-color: rgb(65, 105, 255);
+}
+.Remove:hover{
+    background-color: red;
+}
